@@ -3,16 +3,16 @@
 ## Installation:
 
 Clone the repo
-Bundle install Gemfile and dependencies
 
-```
-$ gem install bundler
-$ bundle
-```
-- Ruby version 2.4.0
+Ruby version 2.4.0
 ```
 $ rvm install ruby 2.4.0
 $ rvm use 2.4.0
+```
+Bundle install Gemfile
+```
+$ gem install bundler
+$ bundle
 ```
 
 ## Task
@@ -53,11 +53,3 @@ Visit: http://localhost:9292/
 ![Game page](https://imgur.com/5YqYgd4.png)
 ----
 ![Result page](https://imgur.com/snNKUzk.png)
-
-## Extra functionality 1: Multiplayer
-
-Change the game so that two marketeers can play against each other ( _yes there are two of them_ ).
-
-## Extra functionality 2: Rock, Paper, Scissors, Spock, Lizard
-
-Use the _special_ rules ( _you can find them here http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock_ )
